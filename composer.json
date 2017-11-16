@@ -1,6 +1,6 @@
 {
   "name": "adamlien/ecpay",
-  "type": "project",
+  "type": "package",
   "description": "The ecpay extension. 綠界金流 . 綠界物流",
   "keywords": [
     "綠界",
@@ -20,23 +20,7 @@
       "email": "adamien329@gmail.com"
     }
   ],
-  "require": {
-    "ECPay/ECPayAIO_PHP": "dev-master"
-  },
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "adamlien/ecpay",
-        "version": "master",
-        "source": {
-          "url": "https://github.com/AdamLien/ECPayAIO_PHP.git",
-          "type": "git",
-          "reference": "origin/master"
-        }
-      }
-    }
-  ],
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Ecpay\\": "src/"
