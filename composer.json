@@ -25,7 +25,7 @@
   },
   "repositories": [
     {
-      "type":"package",
+      "type": "package",
       "package": {
         "name": "ECPay/ECPayAIO_PHP",
         "version": "dev-master",
@@ -38,8 +38,13 @@
     }
   ],
   "autoload": {
-    "classmap": [
-      "vendor/ECPay/ECPayAIO_PHP/"
-    ]
+    "psr-4": {
+      "Ecpay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ecpay\\": "src/"
+    }
   }
 }
