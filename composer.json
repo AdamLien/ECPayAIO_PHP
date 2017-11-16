@@ -25,7 +25,7 @@
   },
   "repositories": [
     {
-      "type": "package",
+      "type": "composer",
       "package": {
         "name": "adamlien/ecpay",
         "version": "master",
