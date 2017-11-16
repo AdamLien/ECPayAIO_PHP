@@ -28,11 +28,11 @@
       "type": "package",
       "package": {
         "name": "adamlien/ecpay",
-        "version": "dev-master",
+        "version": "master",
         "source": {
           "url": "https://github.com/AdamLien/ECPayAIO_PHP.git",
           "type": "git",
-          "reference": "origin/dev-master"
+          "reference": "origin/master"
         }
       }
     }
