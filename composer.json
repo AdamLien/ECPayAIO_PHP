@@ -21,7 +21,20 @@
       "email": "adamien329@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "adamlien/ecpay",
+        "version": "1.0",
+        "source": {
+          "url": "https://github.com/AdamLien/ECPayAIO_PHP.git",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Ecpay\\": "src/"
