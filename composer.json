@@ -1,6 +1,7 @@
 {
   "name": "adamlien/ecpay",
   "type": "package",
+  "version": "1.0.0",
   "description": "The ecpay extension. 綠界金流 . 綠界物流",
   "keywords": [
     "綠界",
