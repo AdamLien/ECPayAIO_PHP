@@ -27,7 +27,7 @@
     {
       "type": "package",
       "package": {
-        "name": "ECPay/ECPayAIO_PHP",
+        "name": "adamlien/ecpay",
         "version": "dev-master",
         "source": {
           "url": "https://github.com/AdamLien/ECPayAIO_PHP.git",
